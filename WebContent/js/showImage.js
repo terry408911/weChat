@@ -13,7 +13,7 @@ function showImage(imgFile,num){
 		}
 		else{
 			path = URL.createObjectURL(imgFile.files[0]);
-		    document.getElementById("imgPreview"+num).innerHTML = "<img width='"+100+"'height='"+80+"' src='"+path+"'/>"; 
+		    document.getElementById("imgPreview"+num).innerHTML = "<img width='100' height='80' src='"+path+"'/>"; 
 		}
 	}
 }
